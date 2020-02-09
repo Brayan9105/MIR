@@ -1,0 +1,56 @@
+
+
+npm init
+
+npm install 'libreria' --save
+npm install 'libreria' --save-dev
+npm install 'libreria' --global
+npm install --save-dev 'libreria'
+
+
+Crear un archivo .gitignore
+
+.gitignore
+	'nombre de la carpeta a ignorar'
+
+
+
+
+Pruebas automatizadas con jest
+
+npm install jest --save-dev
+index.test.js
+
+keywords:
+it
+test
+
+it('Should  add 1 amd 2 correctly', () => {
+	expect(sum(1, 2)).toBe(3);
+	expect(sum(2, 2)).toBe(4);
+})
+
+it('Shouldn't  add 1 amd 2 correctly', () => {
+	expect(sum(1, 2)).not.toBe(3);
+})
+
+it('Should  add 1 amd 2 correctly', () => {
+	expect({a: 1}).toMatchObject({a: 1});
+})
+
+
+se agregar un script en package json
+"test": "jest"
+
+npm run jest
+
+TDD => Test Driven Development
+Hacer primero las prubas despues la funcion
+
+BDD => Behavioral Driven Development
+Se le delega las prubas a otra persona que usaremos para escribir nuestro codigo
+
+
+describe('calc', () => {
+	agrupa todas las prubas van dentro de describe
+})

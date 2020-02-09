@@ -1,0 +1,19 @@
+
+Funcion constructora:
+
+const Triangle(){
+	this.width = width
+	this.height = height
+}
+
+
+Instancia de un objeto:
+
+const miPrimerTriangulo = new Triangle(2,3)
+
+
+Triangle.prototype.nuevaFun = function(){
+
+}
+
+lexical scope and dynamic scope
