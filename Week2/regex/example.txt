@@ -1,0 +1,1 @@
+/hola/ => Match with the exact word
